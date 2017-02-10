@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="CompetenceRating">
+        <class>ru.hostco.competence.jpa.entities.Competence</class>
+        <class>ru.hostco.competence.jpa.entities.Measure</class>
+        <class>ru.hostco.competence.jpa.entities.Position</class>
+        <class>ru.hostco.competence.jpa.entities.Subdivision</class>
+        <class>ru.hostco.competence.jpa.entities.Campaign</class>
+        <class>ru.hostco.competence.jpa.entities.Session</class>
+        <class>ru.hostco.competence.jpa.entities.UserCompetence</class>
+        <class>ru.hostco.competence.jpa.entities.UserCompetencePK</class>
+        <class>ru.hostco.competence.jpa.entities.CompetencePosition</class>
+        <class>ru.hostco.competence.jpa.entities.CompetencePositionPK</class>
+        <class>ru.hostco.competence.jpa.entities.RolePrivilege</class>
+        <class>ru.hostco.competence.jpa.entities.RolePrivilegePK</class>
+        <class>ru.hostco.competence.jpa.entities.SessionCampaign</class>
+        <class>ru.hostco.competence.jpa.entities.SessionCampaignPK</class>
+        <class>ru.hostco.competence.jpa.entities.SubdivisionExecutivePK</class>
+        <class>ru.hostco.competence.jpa.entities.UserRole</class>
+        <class>ru.hostco.competence.jpa.entities.UserRolePK</class>
+        <class>ru.hostco.competence.jpa.entities.Privilege</class>
+        <class>ru.hostco.competence.jpa.entities.Role</class>
+        <class>ru.hostco.competence.jpa.entities.User</class>
+        <class>ru.hostco.competence.jpa.entities.SubdivisionExecutive</class>
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    </persistence-unit>
+</persistence>

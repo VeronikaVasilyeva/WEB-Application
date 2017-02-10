@@ -1,0 +1,60 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jquery-validation' ]
+2 info using npm@2.15.8
+3 info using node@v4.4.7
+4 verbose install initial load of D:\competenceratingr\CompetenceRating\src\main\webapp\resources\lib\package.json
+5 verbose readDependencies loading dependencies from D:\competenceratingr\CompetenceRating\src\main\webapp\resources\lib\package.json
+6 silly cache add args [ 'jquery-validation', null ]
+7 verbose cache add spec jquery-validation
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'jquery-validation',
+8 silly cache add   scope: null,
+8 silly cache add   name: null,
+8 silly cache add   rawSpec: 'jquery-validation',
+8 silly cache add   spec: 'D:\\competenceratingr\\CompetenceRating\\src\\main\\webapp\\resources\\lib\\jquery-validation',
+8 silly cache add   type: 'directory' }
+9 verbose addLocalDirectory C:\Users\vasilyeva\AppData\Roaming\npm-cache\jquery-validation\1.15.1\package.tgz not in flight; packing
+10 verbose correctMkdir C:\Users\vasilyeva\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+11 verbose tar pack [ 'C:\\Users\\vasilyeva\\AppData\\Roaming\\npm-cache\\jquery-validation\\1.15.1\\package.tgz',
+11 verbose tar pack   'D:\\competenceratingr\\CompetenceRating\\src\\main\\webapp\\resources\\lib\\jquery-validation' ]
+12 verbose tarball C:\Users\vasilyeva\AppData\Roaming\npm-cache\jquery-validation\1.15.1\package.tgz
+13 verbose folder D:\competenceratingr\CompetenceRating\src\main\webapp\resources\lib\jquery-validation
+14 info prepublish jquery-validation@1.15.1
+15 verbose unsafe-perm in lifecycle true
+16 info jquery-validation@1.15.1 Failed to exec prepublish script
+17 error addLocalDirectory Could not pack D:\competenceratingr\CompetenceRating\src\main\webapp\resources\lib\jquery-validation to C:\Users\vasilyeva\AppData\Roaming\npm-cache\jquery-validation\1.15.1\package.tgz
+18 error addLocal Could not install D:\competenceratingr\CompetenceRating\src\main\webapp\resources\lib\jquery-validation
+19 verbose stack Error: jquery-validation@1.15.1 prepublish: `grunt`
+19 verbose stack Exit status 1
+19 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\lifecycle.js:217:16)
+19 verbose stack     at emitTwo (events.js:87:13)
+19 verbose stack     at EventEmitter.emit (events.js:172:7)
+19 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\lib\utils\spawn.js:24:14)
+19 verbose stack     at emitTwo (events.js:87:13)
+19 verbose stack     at ChildProcess.emit (events.js:172:7)
+19 verbose stack     at maybeClose (internal/child_process.js:827:16)
+19 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+20 verbose pkgid jquery-validation@1.15.1
+21 verbose cwd D:\competenceratingr\CompetenceRating\src\main\webapp\resources\lib
+22 error Windows_NT 10.0.10240
+23 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jquery-validation"
+24 error node v4.4.7
+25 error npm  v2.15.8
+26 error code ELIFECYCLE
+27 error jquery-validation@1.15.1 prepublish: `grunt`
+27 error Exit status 1
+28 error Failed at the jquery-validation@1.15.1 prepublish script 'grunt'.
+28 error This is most likely a problem with the jquery-validation package,
+28 error not with npm itself.
+28 error Tell the author that this fails on your system:
+28 error     grunt
+28 error You can get information on how to open an issue for this project with:
+28 error     npm bugs jquery-validation
+28 error Or if that isn't available, you can get their info via:
+28 error
+28 error     npm owner ls jquery-validation
+28 error There is likely additional logging output above.
+29 verbose exit [ 1, true ]
